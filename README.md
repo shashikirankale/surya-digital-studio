@@ -1,5 +1,3 @@
-# **A Responsive Photography Website**
+# **Surya Digital Studio**
 
-**Live Project**
-
-https://kirankumargonti.github.io/Responsive-Photography-Website/
+https://suryadigitalstudio.in

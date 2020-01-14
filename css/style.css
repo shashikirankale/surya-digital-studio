@@ -513,8 +513,8 @@ body {
 #footer p {
   font-size: 1rem;
   letter-spacing: 1px;
-  /*============================Scroll-Out=================================*/
 }
+  /*============================Scroll-Out=================================*/
 
 [data-scroll] {
   transition: transform 0.5s;
@@ -585,7 +585,7 @@ body {
   .grid-box {
     height: 50%;
     width: 100%;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     padding: 10px 0;
   }
 
@@ -695,8 +695,6 @@ body {
   #contact .contact-right h3 {
     font-size: 1.2rem;
   }
-
-
 
 }
 

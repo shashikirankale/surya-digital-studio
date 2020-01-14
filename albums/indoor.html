@@ -87,7 +87,7 @@
             <img src="https://cdn.pixabay.com/photo/2015/09/09/19/56/office-932926_1280.jpg" onclick="openModal();currentSlide(2)" alt=""
                 class="card-img img-fluid" />
         </div>
-        <div class="img-grid"> data-scroll
+        <div class="img-grid" data-scroll>
             <img src="https://cdn.pixabay.com/photo/2015/06/08/15/26/hallway-802068_1280.jpg" onclick="openModal();currentSlide(3)" alt=""
                 class="card-img img-fluid" />
         </div>
@@ -212,7 +212,9 @@
     <footer id="footer">
         <div class="content">
             <p class="text-muted">
-                &copy; Copyright 2020 Surya Digital Studio - All Rights Received
+                &copy; Copyright <script type="text/javascript">
+                    document.write(new Date().getFullYear());
+                  </script> Surya Digital Studio - All Rights Received
             </p>
         </div>
     </footer>

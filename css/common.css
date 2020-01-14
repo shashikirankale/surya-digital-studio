@@ -10,10 +10,10 @@
     --candid-gradient: rgb(217, 231, 243);
     --candid-main-overlay: rgba(8, 19, 82, 0.644);
     --candid-bg-img: url('https://images.unsplash.com/photo-1495048129879-40f4fcb87045?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60');
-    /*=============candid===================== */
+    /*=============portrait===================== */
     --portrait-gradient: rgb(217, 231, 243);
     --portrait-main-overlay: #331a069d;
-    --portrait-bg-img: url('../images/albums/portrait/StockSnap_TXGIMQSM8D.jpg');
+    --portrait-bg-img: url('https://images.pexels.com/photos/45853/grey-crowned-crane-bird-crane-animal-45853.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500');
     /*===============advertise=================== */
     --advertise-gradient: rgb(217, 231, 243);
     --advertise-main-overlay: rgba(37, 29, 4, 0.705);

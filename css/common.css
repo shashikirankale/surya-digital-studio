@@ -181,6 +181,8 @@ nav {
 #gallery .card-img:hover {
     transform: scale(1.08);
     transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
     opacity: 0.8;
     transition: 0.3s;
 }
@@ -374,10 +376,12 @@ img.hover-shadow {
     .nav-link {
         border: none !important;
     }
-    #banner { 
+
+    #banner {
         top: 45%;
 
     }
+
     #gallery-banner {
         height: 70vh;
     }
@@ -408,9 +412,11 @@ img.hover-shadow {
         right: 5px;
         font-size: 35px;
     }
-    .close:hover { 
+
+    .close:hover {
         color: #000 !important;
     }
+
     .prev,
     .next {
         font-size: 15px;
@@ -421,6 +427,7 @@ img.hover-shadow {
         width: 100%;
         height: 100% !important;
     }
+
     .modal-content {
         top: 20%;
         position: absolute;

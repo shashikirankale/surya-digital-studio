@@ -187,6 +187,9 @@ body {
   width: 100%;
   height: 250px;
   transition: all 0.7s ease-in-out !important;
+  -moz-transition: all 0.7s ease-in-out !important;
+  -o-transition: all 0.7s ease-in-out !important;
+  -webkit-transition: all 0.7s ease-in-out !important;
   cursor: pointer;
 }
 

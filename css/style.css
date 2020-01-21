@@ -19,7 +19,7 @@
 
 body {
   overflow-x: hidden !important;
-  width: 100%;
+  width: 100vw;
   height: 100%;
   font-family: var(--oswald) !important;
 }
@@ -30,7 +30,7 @@ body {
   height: 100vh;
   width: 100%;
   position: relative;
-  background-image: url('https://images.unsplash.com/photo-1541582596622-c0a08ae45b9f?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&dl=tim-mossholder-_YAewFXov_k-unsplash.jpg');
+  background-image: url('https://images.unsplash.com/photo-1549982655-fa06a9bdd0e0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1489&q=80');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -44,7 +44,10 @@ body {
   width: 100%;
   height: 100%;
   z-index: 1;
-  background: rgba(75, 49, 2, 0.575);
+  /* background: rgba(75, 49, 2, 0.575); */
+  background: rgba(54, 96, 145, 0.6);
+  
+
 }
 
 /*==========Navbar============================*/
@@ -72,8 +75,10 @@ body {
 
 .nav-link:hover {
   border-bottom: 2px solid var(--color);
-  -webkit-transition: all 0.2s ease-in;
+  -webkit-transition: all 0.3s ease-in;
   transition: all 0.3s ease-in;
+  -o-transition: all 0.3s ease-in;
+  -moz-transition: all 0.3s ease-in;
 }
 
 /** =================banner====================*/
@@ -116,16 +121,33 @@ body {
 
 #banner .banner-buttons a {
   padding: 10px 25px;
-  color: #ffffff;
-  border: 1px solid #ffffff;
+  color: #000000;
+  border: 2px solid #ffffff;
   text-decoration: none;
+  background-color: #ffffff;
   border-radius: 0;
 }
 
 #banner .banner-buttons a:hover {
-  background: linear-gradient(90deg, #191654, #43c6ac);
+  background-color: #000000;
+  color: #ffffff;
+  /* background: linear-gradient(90deg, #191654, #43c6ac); */
   transition: all 0.3s ease-in;
+  -webkit-transition: all 0.3s ease-in;
+  -o-transition: all 0.3s ease-in;
+  -moz-transition: all 0.3s ease-in;
+}
 
+#banner .banner-buttons .btn-2 {
+  background-color: teal;
+  color: #ffffff;
+  border: 2px solid teal;
+}
+
+#banner .banner-buttons .btn-2:hover {
+  background-color: #ffffff;
+  color: #000000;
+  border: 2px solid rgb(255, 255, 255);
 }
 
 /*========Grid==========*/
@@ -517,7 +539,8 @@ body {
   font-size: 1rem;
   letter-spacing: 1px;
 }
-  /*============================Scroll-Out=================================*/
+
+/*============================Scroll-Out=================================*/
 
 [data-scroll] {
   transition: transform 0.5s;
@@ -533,8 +556,12 @@ body {
 
 /*=============================================================*/
 @media (max-width: 576px) {
+  html {
+    overflow-x: hidden !important;
+  }
+
   nav {
-    background-color: rgb(6, 38, 65);
+    background-color: rgba(54, 96, 145);
   }
 
   nav ul {

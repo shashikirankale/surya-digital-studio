@@ -368,6 +368,9 @@ img.hover-shadow {
   html {
     overflow-x: hidden !important;
   }
+  body{
+    overflow: hidden !important;
+  }
 
   nav {
     z-index: 2 !important;

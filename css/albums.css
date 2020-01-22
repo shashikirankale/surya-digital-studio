@@ -188,14 +188,19 @@ body {
   font-size: 1rem;
   letter-spacing: 1px;
 }
+
 /*===================max-width: 576px==========================================*/
 @media (max-width: 576px) {
   html {
     overflow-x: hidden !important;
   }
 
+  body {
+    overflow: hidden !important;
+  }
+
   nav {
-    background-color: rgba(54, 96, 145)  !important;
+    background-color: rgba(54, 96, 145) !important;
   }
 
   .nav-link {
@@ -237,11 +242,8 @@ body {
 }
 
 /**==================Media Query - max ================== */
-@media (min-width: 575.98px) {
-}
+@media (min-width: 575.98px) {}
 
-@media (min-width: 767.98px) {
-}
+@media (min-width: 767.98px) {}
 
-@media (min-width: 991.98px) {
-}
+@media (min-width: 991.98px) {}

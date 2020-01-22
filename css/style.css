@@ -567,6 +567,10 @@ body {
     overflow-x: hidden !important;
   }
 
+  body {
+    overflow: hidden !important;
+  }
+
   nav {
     background-color: rgba(54, 96, 145);
   }

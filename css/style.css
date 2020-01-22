@@ -23,7 +23,7 @@ html {
 
 body {
   overflow-x: hidden !important;
-  width: 100vw;
+  width: 100%;
   height: 100%;
   font-family: var(--oswald) !important;
 }
@@ -569,6 +569,7 @@ body {
 
   nav {
     background-color: rgba(54, 96, 145);
+    position: fixed;
   }
 
   nav ul {

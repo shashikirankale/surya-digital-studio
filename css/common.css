@@ -55,14 +55,12 @@ html {
 
 body {
   overflow-x: hidden !important;
-  width: 100vw;
+  width: 100%;
   height: 100%;
   font-family: var(--oswald) !important;
   margin: 0;
   padding: 0;
 }
-
-/*================================================================================================*/
 
 /*==========Navbar============================*/
 .navbar {
@@ -151,7 +149,7 @@ nav {
 #gallery {
   width: 100%;
   height: 100%;
-  padding: 50px;
+  padding: 50px !important;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 2em;
@@ -211,7 +209,7 @@ nav {
 
 /* ============End of  Gallery banner============== */
 
-.row>.column {
+.row > .column {
   padding: 0 8px;
 }
 
@@ -235,7 +233,7 @@ nav {
   padding-top: 10px;
   left: 0;
   top: 0;
-  width: 100%;
+  width: 100vw;
   height: 100% !important;
   overflow: auto;
   background: rgb(1, 28, 46);
@@ -243,7 +241,7 @@ nav {
 
 /* Modal Content */
 .modal-content {
-  background-color: #fefefe;
+  background-color: #ffffff;
   margin: auto;
   padding: 0;
   width: 100%;
@@ -400,7 +398,7 @@ img.hover-shadow {
   #gallery {
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 5px;
-    padding: 10px;
+    padding: 20px !important;
   }
 
   .mySlides img {
@@ -410,7 +408,7 @@ img.hover-shadow {
 
   .close {
     color: #ffffff !important;
-    top: 130px !important;
+    top: 120px !important;
     right: 5px;
     font-size: 45px;
   }
@@ -446,11 +444,15 @@ img.hover-shadow {
   }
 }
 
-@media (max-width: 992px) {}
+@media (max-width: 992px) {
+}
 
 /**==================Media Query - max ================== */
-@media (min-width: 575.98px) {}
+@media (min-width: 575.98px) {
+}
 
-@media (min-width: 767.98px) {}
+@media (min-width: 767.98px) {
+}
 
-@media (min-width: 991.98px) {}
+@media (min-width: 991.98px) {
+}

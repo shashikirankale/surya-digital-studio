@@ -55,7 +55,7 @@ html {
 
 body {
   overflow-x: hidden !important;
-  width: 100%;
+  width: 100vw !important;
   height: 100%;
   font-family: var(--oswald) !important;
   margin: 0;
@@ -411,9 +411,10 @@ img.hover-shadow {
 
   .close {
     color: #ffffff !important;
-    top: 120px !important;
+    top: 135px !important;
     right: 5px;
     font-size: 45px;
+    overflow: hidden !important;
   }
 
   .close:hover {

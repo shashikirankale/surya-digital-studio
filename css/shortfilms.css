@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css?family=Advent+Pro:700|Audiowide|Cinzel|Cinzel+Decorative:400,700|Michroma|Oswald|Wallpoet&display=swap');
+
+:root {
+    --bs: 0px 10px 40px rgba(0, 0, 0, 0.445);
+    --oswald: 'Oswald', sans-serif;
+    --color: rgb(255, 115, 0);
+    --Advent: 'Advent Pro', sans-serif;
+    --Audiowide: 'Audiowide', cursive;
+    --Michroma: 'Michroma', sans-serif;
+    --Wallpoet: 'Wallpoet', cursive;
+    --CinzelDec: 'Cinzel Decorative', cursive;
+    --Cinzel: 'Cinzel', serif;
+}
+
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth !important;
+}
+
+html {
+    overflow-x: hidden !important;
+}
+
+body {
+    overflow-x: hidden !important;
+    width: 100%;
+    height: 100%;
+    font-family: var(--Audiowide) !important;
+}
+
+/*================================================================================================*/
+/** =================slider====================*/
+#shortfilms-nav {
+    height: 70vh;
+    width: 100%;
+    position: relative;
+    background-image: url('https://images.pexels.com/photos/753859/pexels-photo-753859.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#shortfilms-nav::after {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    box-shadow: inset 220px 50px 250px #000000, inset 100px -100px 250px #000000;
+    /* background: rgba(75, 49, 2, 0.575); */
+    /* background: rgba(15, 38, 65, 0.6); */
+    /* box-shadow: inset 120px 100px 250px #000000, inset -120px -100px 250px #000000; */
+    transition: all 0.7s ease-in-out;
+    -webkit-transition: all 0.7s ease-in-out;
+    -moz-transition: all 0.7s ease-in-out;
+    -o-transition: all 0.7s ease-in-out;
+
+}
+
+/*==========Navbar============================*/
+.navbar,
+#banner {
+    z-index: 2;
+}
+
+.navbar {
+    border-bottom: 0.5px solid #ffffff75;
+    font-family: var(--oswald) !important;
+}
+
+.navbar-brand {
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    color: #ffffff;
+}
+
+.nav-link {
+    color: #ffffff !important;
+    padding: 5px 25px !important;
+    border-bottom: 2px solid transparent;
+    letter-spacing: 1px;
+}
+
+.nav-link:hover {
+    border-bottom: 2px solid var(--color);
+    -webkit-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+}
+
+/** =================banner====================*/
+#banner {
+    color: #ffffff;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
+#banner .banner-content h1 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+#banner .banner-content a {
+    background-color: aliceblue;
+}
+
+#banner .banner-content a:hover {
+    background-color: rgb(255, 255, 255);
+}
+
+/*=====================Film=========================*/
+#film {
+    width: 100%;
+    height: 100%;
+    padding: 20px 0;
+}
+
+#film .film-titles {
+    padding: 50px 0;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#film .youtube {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    margin: 20px 0;
+}
+
+#film .youtube a {
+    width: 200px;
+    height: 100px;
+    background-color: rgb(233, 236, 239);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    border: 5px solid #ffffff;
+    box-shadow: 0px 10px 100px 5px rgba(0, 0, 0, 0.137);
+}
+
+#film .youtube a:hover {
+    box-shadow: var(--bs);
+}
+
+#film .youtube a .fa-youtube {
+    font-size: 4rem;
+    color: red;
+}
+
+#film .youtube p {
+    font-family: var(--oswald) !important;
+    margin-top: 1.5rem;
+}
+
+#film .film-left {
+    box-shadow: 0px 10px 100px 5px rgba(0, 0, 0, 0.089);
+    width: 100%;
+    height: 100%;
+    padding: 20px 10px;
+}
+
+#film .film-left p {
+    padding: 10px 30px;
+    font-family: var(--Cinzel);
+}
+
+#film .film-right {
+    box-shadow: 0px 10px 100px 5px rgba(0, 0, 0, 0.089);
+    width: 100%;
+    height: 350px;
+    border: 5px solid #ffffff;
+}
+
+#film .film-right iframe {
+    width: 100%;
+    height: 100%;
+}
+
+
+/*=====================coming-soon=========================*/
+#coming-soon {
+    width: 100%;
+    height: 100%;
+    padding: 50px 0;
+    background-color: aliceblue;
+}
+
+/*=====================Footer=========================*/
+#footer {
+    height: 100%;
+    width: 100%;
+    background: rgb(3, 27, 43);
+    font-family: var(--oswald) !important;
+}
+
+#footer .content {
+    padding: 30px;
+    text-align: center;
+}
+
+#footer p {
+    font-size: 1rem;
+    letter-spacing: 1px;
+}
+
+
+/*=============================================================*/
+@media (max-width: 576px) {
+    html {
+        overflow-x: hidden !important;
+    }
+
+    body {
+        overflow: hidden !important;
+    }
+
+    nav {
+        background-color: rgba(15, 38, 65, 0.6);
+    }
+
+    nav ul {
+        text-align: center !important;
+    }
+
+    .nav-link {
+        border: none !important;
+    }
+    #shortfilms-nav::after { 
+        box-shadow: none;
+        background: rgba(15, 38, 65, 0.6);
+    }
+    #banner {
+        text-align: center;
+    }
+    #banner .banner-content h1 {
+        font-size: 1.5rem;
+    }
+    #banner .banner-content a {
+        font-size: 0.8rem;
+    }
+    #film .container{
+        padding-top: 1rem !important;
+    }
+    #film .film-titles h1{
+        padding: 10px 0 !important;
+        font-size: 1.4rem;
+    }
+    #film .youtube p {
+        text-align: center;
+    }
+    #film .film-left h2{
+        font-size: 1.2rem;
+    }
+    #film .film-right {
+        height: 100%;
+    }
+
+}
+    @media (max-width: 768px) {}
+
+    @media (max-width: 992px) {}
+
+    /**==================Media Query - max ================== */
+    @media (min-width: 575.98px) {}
+
+    @media (min-width: 767.98px) {}
+
+    @media (min-width: 991.98px) {}

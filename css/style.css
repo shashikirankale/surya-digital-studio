@@ -275,6 +275,10 @@ body {
   padding: 20px 0;
 }
 
+.view-button a {
+  box-shadow: var(--bs);
+}
+
 .photography-left,
 .design-left,
 .wedding-left,
